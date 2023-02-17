@@ -11,11 +11,10 @@ def find_stubs(package):
 
 
 setup(
-    name="odoo15-stubs",
-    url="https://github.com/odoo-ide/odoo-stubs",
+    name="odoo-stubs",
     author="Trinh Anh Ngoc",
     author_email="atw1990@gmail.com",
-    version="0.0.1",
+    version="16.0.1",
     package_data=find_stubs("odoo-stubs"),
     packages=["odoo-stubs"]
 )
